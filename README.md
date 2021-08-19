@@ -1,2 +1,2 @@
 # multiple-linear-regression-from-scratch
-Implementing Multiple Linear Regression from Scratch using the Overdetermined SVD Solver
+Implementing Multiple Linear Regression from Scratch using the Overdetermined SVD Solver. First, we use different decompositions like LU,Cholesky,QR,and SVD Solvers to solve linear least square and non-square problems. Next, iterative methods like the Gauss-Seidel and Successive Over-Relaxation (SOR) algorithms for solving the linear least squares are implemented from scratch. Then, the linear multiple regression model is implemented based on our methods from previous parts, more precisely, based on the overdetermined SVD solver instead of classic gradient descent methods in the sklearn package. The model is tested on the Boston dataset.
